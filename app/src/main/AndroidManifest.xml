@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +16,9 @@
         android:theme="@style/Theme.ToDoList"
         tools:targetApi="31">
         <activity
+            android:name=".FloatingWidgetService"
+            android:exported="false" />
+        <activity
             android:name=".editTask"
             android:exported="false" />
         <activity
@@ -24,7 +28,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
