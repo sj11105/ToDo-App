@@ -12,8 +12,6 @@
 - **Java**: Primary programming language used for Android app development.
 - **Android Studio**: Integrated Development Environment (IDE) used for Android app development.
 
-## Screenshots
-![ToDoList App Screenshot](app/Tasks.png)
-![Add List](app/add_tasks.png)
-![Edit Task](app/edit_tasks.png)
+
+
 
